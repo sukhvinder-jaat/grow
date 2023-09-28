@@ -5,18 +5,21 @@ import { UpdateIn, UpdateInsta, UpdateMessage } from "./common/Icons";
 export const Updated = () => {
   return (
     <div className="bg_whiteEF py-xl-5 my-lg-5">
-      <Container className="py-md-5 py-4">
-        <Row className=" position-relative my-xl-5 mt-5 justify-content-center">
+      <Container className="py-lg-5 py-4">
+        <Row className="position-relative my-xl-5 mt-5 justify-content-center">
           {/* small box */}
-          <div className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0">
-            <div className=" d-flex align-items-center justify-content-start">
+          <div
+            className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none"
+            data-aos="fade-up"
+          >
+            <div className="d-flex align-items-center justify-content-start">
               <a
                 href="mail:Stepenjohns@gmail.com"
-                className=" d-flex align-items-center"
+                className="d-flex align-items-center"
                 target="blank"
               >
                 <UpdateMessage />
-                <p className=" ff_roboto fw-normal lh_normal text-black mb-0 ps-3">
+                <p className="ff_roboto fw-normal lh_normal text-black mb-0 ps-3">
                   Stepenjohns@gmail.com
                 </p>
               </a>
@@ -39,18 +42,19 @@ export const Updated = () => {
             lg={7}
             xs={8}
             className="position-absolute start-0 top_-12 ps-0 d-lg-block d-none"
+            data-aos="fade-up"
           >
             <img src={updateImg} alt="updateImg" className="w-100" />
           </Col>
           <Col lg={5} md={8} sm="10" xs={12}>
             <img src={updateImg} alt="updateImg" className="w-100 d-lg-none" />
           </Col>
-          <Col lg={7} xs={12} className="mt-lg-0 mt-4">
+          <Col lg={7} xs={12} className="mt-lg-0 mt-4" data-aos="fade-left">
             <div className="bg_whiteFA updateBox position-relative z-1">
               <p className="clr_black11 ff_roboto fs_4xl lh_normal fw-normal mb-0">
-                Get <span className=" fw-semibold">Updated</span> With Us
+                Get <span className="fw-semibold">Updated</span> With Us
               </p>
-              <p className=" opacity06 text-black ff_roboto fs_sm fw-medium mb-0 my-3">
+              <p className="opacity06 text-black ff_roboto fs_sm fw-medium mb-0 my-3">
                 The Big Oxmox advised her not to do so, because there were
                 thousands of bad Commas, wild Question Marks and devious
                 Semikoli.
@@ -60,14 +64,14 @@ export const Updated = () => {
                   <input
                     type="text"
                     placeholder="Your Name"
-                    className=" text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
+                    className="text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
                   />
                 </Col>
                 <Col xs={6}>
                   <input
                     type="text"
                     placeholder="Your Email Address"
-                    className=" text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
+                    className="text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
                   />
                 </Col>
                 <Col xs={12} className="mt-3 mb-2">

@@ -16,15 +16,17 @@ const BackToTop = () => {
   return (
     <section>
       <Container>
-          <img
-            height={60}
-            onClick={() => onTop()}
-            className={
-              first ? "d-none" : "d-block backtotop_btn pointer position-fixed end-0 bottom-0 mb-3 me-3"
-            }
-            src={backToTop}
-            alt="image"
-          />
+        <img
+          height={60}
+          onClick={() => onTop()}
+          className={
+            first
+              ? "d-none"
+              : "d-block backtotop_btn pointer position-fixed end-0 bottom-0 mb-3 me-3"
+          }
+          src={backToTop}
+          alt="image"
+        />
       </Container>
     </section>
   );

@@ -53,7 +53,7 @@ export const Take = [
 export const AccordianData = [
   {
     id: 1,
-    heading: " What products can I scan?",
+    heading: "What products can I scan?",
     paragraph:
       "You can scan any product with a barcode before you recycle, no matter what it's made of. Cloopp rewards you for your positive actions",
   },
@@ -78,7 +78,7 @@ export const AccordianData = [
 ];
 export const NavOption = [
   { id: 1, home: "Home", move: "#" },
-  { id: 2, home: "About",move: "#about" },
-  { id: 3, home: "Article",move:"#article" },
-  { id: 3, home: "Events",move:"#events" },
+  { id: 2, home: "About", move: "#about" },
+  { id: 3, home: "Article", move: "#article" },
+  { id: 4, home: "Events", move: "#events" },
 ];

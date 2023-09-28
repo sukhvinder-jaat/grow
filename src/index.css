@@ -270,7 +270,31 @@ button:focus:not(:focus-visible) {
 /* back to top */
 .backtotop_btn {
   z-index: 20;
-  transform: rotate(180deg);
+  animation: topBtn 2s ease-in-out infinite;
+}
+.lh_110 {
+  line-height: 110%;
+}
+@keyframes topBtn {
+  0% {
+    transform: scale(1) rotate(180deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg) translateY(10%);
+  }
+  100% {
+    transform: scale(1) rotate(180deg);
+  }
+}
+/* preloader */
+.loading {
+  z-index: 200;
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/images/webp/heroBg.webp) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
 }
 @media (min-width: 768px) and (max-width: 1920px) {
   .hero_h_custom {
@@ -308,6 +332,9 @@ button:focus:not(:focus-visible) {
   }
   .nav_property {
     padding: 7px 20px 6px 16px;
+  }
+  .overflow_hidden {
+    overflow: hidden !important;
   }
 }
 @media (max-width: 576px) {
