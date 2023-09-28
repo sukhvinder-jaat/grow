@@ -6,7 +6,7 @@ export const Updated = () => {
   return (
     <div className="bg_whiteEF py-xl-5 my-lg-5">
       <Container className="py-lg-5 py-4">
-        <Row className="position-relative my-xl-5 mt-5 justify-content-center">
+        <Row className="position-relative my-xl-5 mt-lg-5 mt-4 justify-content-center">
           {/* small box */}
           <div className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none">
             <div className="d-flex align-items-center justify-content-start">
