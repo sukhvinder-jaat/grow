@@ -6,15 +6,12 @@ export const Frequently = () => {
   return (
     <div className="bg_whiteEF position-relative z-1 mb-sm-5 mb-4 pb-lg-4 pt-md-0 pt-3">
       <Container className="py-md-5 py-4" id="events">
-        <p
-          className="ff_outfit fw-semibold fs_5xl text-center text-black mb-4 pb-3"
-          data-aos="fade-up"
-        >
+        <p className="ff_outfit fw-semibold fs_5xl text-center text-black mb-4 pb-3">
           Frequently Asked Questions
         </p>
         {/* accordian */}
         {AccordianData.map((data) => [
-          <Accordion key={data.id} data-aos="fade-up">
+          <Accordion key={data.id}>
             <Accordion.Item eventKey="0" className="mb-3">
               <Accordion.Header>
                 <p className="ff_outfit mb-0 fs_xl fw-medium clr_black0D lh_110">

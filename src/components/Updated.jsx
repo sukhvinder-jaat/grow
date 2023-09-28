@@ -8,10 +8,7 @@ export const Updated = () => {
       <Container className="py-lg-5 py-4">
         <Row className="position-relative my-xl-5 mt-5 justify-content-center">
           {/* small box */}
-          <div
-            className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none"
-            data-aos="fade-up"
-          >
+          <div className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none">
             <div className="d-flex align-items-center justify-content-start">
               <a
                 href="mail:Stepenjohns@gmail.com"
@@ -42,14 +39,13 @@ export const Updated = () => {
             lg={7}
             xs={8}
             className="position-absolute start-0 top_-12 ps-0 d-lg-block d-none"
-            data-aos="fade-up"
           >
             <img src={updateImg} alt="updateImg" className="w-100" />
           </Col>
           <Col lg={5} md={8} sm="10" xs={12}>
             <img src={updateImg} alt="updateImg" className="w-100 d-lg-none" />
           </Col>
-          <Col lg={7} xs={12} className="mt-lg-0 mt-4" data-aos="fade-left">
+          <Col lg={7} xs={12} className="mt-lg-0 mt-4">
             <div className="bg_whiteFA updateBox position-relative z-1">
               <p className="clr_black11 ff_roboto fs_4xl lh_normal fw-normal mb-0">
                 Get <span className="fw-semibold">Updated</span> With Us
@@ -81,8 +77,8 @@ export const Updated = () => {
                   />
                 </Col>
               </Row>
-              <button className="subscribeHover ff_roboto fs_md text-white lh_normal fw-medium bg_pinkFF rounded-pill p_12_24 mt-4">
-                Send Message
+              <button className="subscribeHover whiteHover overflow-hidden position-relative ff_roboto fs_md text-white lh_normal fw-medium bg_pinkF7 rounded-pill p_12_24 mt-4 justify-content-center h_53 d-flex align-items-center">
+                <span className="position-relative z-1">Send Message</span>
               </button>
             </div>
           </Col>

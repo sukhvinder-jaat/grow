@@ -13,29 +13,40 @@ export const MyFooter = () => {
             src={footerLogo}
             alt="footerLogo"
             className="mx_90 w-100"
-            data-aos="fade-up"
           />
           <p
             className="ff_roboto fw-normal fs_xsm text-white py_33 text-center"
-            data-aos="fade-up"
           >
             <span className="fs_sm clr_silver8E">© </span> {year} Lior krengle .
-            <span className="text-decoration-underline pointer"> Privacy</span>.
-            <span className="text-decoration-underline pointer"> Terms</span> .
-            <span className="text-decoration-underline pointer">
+            <a
+              href="#"
+              className="text-decoration-underline pointer text-white px-1"
+            >
+              Privacy
+            </a>
+            .
+            <a
+              href="#"
+              className="text-decoration-underline pointer pointer text-white px-1"
+            >
+              Terms
+            </a>
+            .
+            <a
+              href="#"
+              className="text-decoration-underline pointer pointer text-white px-1"
+            >
               Collection Notice
-            </span>
+            </a>
           </p>
           <div className="d-flex align-items-center flex-sm-row flex-column">
             <button
               className="lh_normal text-black fs_md fw-medium startBorder rounded-pill bg-white p_14_28"
-              data-aos="fade-left"
             >
               <img src={writing} alt="writing" width={24} height={24} /> Start
               Writing
             </button>
             <button
-              data-aos="fade-right"
               className="lh_normal text-black fs_md fw-medium startBorder rounded-pill ms-sm-4 mt-sm-0 mt-3 bg-white p_16_32"
             >
               Get the app
@@ -43,11 +54,9 @@ export const MyFooter = () => {
           </div>
         </div>
         <hr className="footerLine mt-4" />
-        <p
-          className="ff_roboto fs_xsm fw-normal lh_normal clr_silver87 mb-0 text-center pt-3"
-        >
+        <p className="ff_roboto fs_xsm fw-normal lh_normal clr_silver87 mb-0 text-center pt-3">
           <span className="text-decoration-underline pointer">Substack</span>
-          is the home for great writing
+          <span> is the home for great writing.</span>
         </p>
       </Container>
     </div>

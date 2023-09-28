@@ -6,11 +6,6 @@
   scroll-behavior: smooth;
   box-sizing: border-box !important;
 }
-.container {
-  max-width: 1140px !important;
-  padding-left: 12px !important;
-  padding-right: 12px !important;
-}
 .pointer {
   cursor: pointer;
 }
@@ -114,9 +109,6 @@
 }
 .mx_800 {
   max-width: 800px;
-}
-.mt_19 {
-  margin-top: 19px;
 }
 .mx_510 {
   max-width: 510px;
@@ -234,6 +226,9 @@ button:focus:not(:focus-visible) {
 .min_h_140 {
   min-height: 140px;
 }
+.h_53{
+  height: 53px;
+}
 .p_12_24 {
   padding: 12px 24px;
 }
@@ -264,7 +259,6 @@ button:focus:not(:focus-visible) {
 .subscribeHover:hover {
   box-shadow: 0px 2px 12px 2px var(--color-pinkFF);
   border: 2px solid var(--color-pinkFF) !important;
-  background-color: transparent !important;
   color: var(--color-pinkFF) !important;
 }
 /* back to top */
@@ -295,6 +289,47 @@ button:focus:not(:focus-visible) {
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
+}
+.w_188 {
+  width: 188px;
+}
+.hoverWhite {
+  background: transparent;
+  color: white;
+}
+.hoverWhite:hover {
+  color: black;
+}
+.whiteHover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: all 0.3s ease;
+  z-index: 0;
+  opacity: 0;
+}
+.whiteHover:hover:before {
+  -webkit-transform: scaleX(200);
+  -ms-transform: scaleX(200);
+  transform: scaleX(200);
+  opacity: 1;
+}
+.bg_whiteHover::before {
+  background: white;
+}
+.subscribeHover::before{
+  background: white;
+}
+@media (min-width: 1199.98px) {
+  .container {
+    max-width: 1140px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1920px) {
   .hero_h_custom {

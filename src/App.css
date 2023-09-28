@@ -15,6 +15,7 @@
   --color-whiteCD: #cdc8c9;
   --color-whiteB7: #b7b9bb;
   --color-pinkFF: #ff5cd7;
+  --color-pinkF7: #ff7ddf;
   --color-silver8E: #8e9294;
   --color-silver87: #878a8d;
   --color-silver48: #484848;
@@ -102,6 +103,12 @@
 }
 .bg_whiteF8 {
   background-color: var(--color-whiteF8);
+}
+.bg_pinkF7 {
+  background-color: var(--color-pinkF7);
+}
+button{
+  transition: 0.3s ease-in-out !important;
 }
 /* responisve */
 @media (max-width: 1023.98px) {

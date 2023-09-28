@@ -10,10 +10,7 @@ import { View } from "./components/View";
 import { Updated } from "./components/Updated";
 import BackToTop from "./components/common/BackToTop";
 import Preloader from "./components/common/Preloader";
-import AOS from "aos";
-import "aos/dist/aos.css";
 function App() {
-  AOS.init({ disable: "mobile", duration: 700, once: true });
   return (
     <>
       <div className=" bg_whiteEF overflow-hidden">

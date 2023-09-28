@@ -17,8 +17,8 @@ export const Hero = () => {
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less norma.
             </p>
-            <button className="ff_roboto fw-medium fs_md lh_normal rounded-pill startBorder mt-sm-4 p_16_34 bg-transparent text-white">
-              Get Started
+            <button className="ff_roboto fw-medium fs_md lh_normal rounded-pill startBorder mt-sm-4 p_16_34 whiteHover position-relative overflow-hidden hoverWhite bg_whiteHover">
+              <span className=" position-relative">Get Started</span>
             </button>
           </div>
         </Container>

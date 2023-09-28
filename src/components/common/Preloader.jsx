@@ -13,8 +13,11 @@ const Preloader = () => {
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <span className="z-15 w-50 d-flex flex-column justify-content-center align-items-center">
           <div className="d-inline-block">
-            <p className="ff_roboto mx_600 lh_normal text-center fs_6xl text-white fw-normal mb-0 typed">
-              Grow <span className="fw-medium">Work</span> Skill
+            <p className="ff_roboto mx_600 lh_normal text-center fs_4xl text-white fw-normal mb-0 typed">
+              Meet <span className="fw-semibold">Work Skill</span> Your
+            </p>
+            <p className="ff_roboto mx_600 lh_normal text-center fs_4xl text-white fw-normal mb-0 typed">
+              Agency for Growth
             </p>
           </div>
         </span>
