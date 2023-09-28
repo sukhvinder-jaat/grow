@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// bootstrap link
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Hero } from "./components/Hero";
+import { Join } from "./components/Join";
+import { MyFooter } from "./components/MyFooter";
+import { Frequently } from "./components/Frequently";
+import { Welcome } from "./components/Welcome";
+import { View } from "./components/View";
+import { Updated } from "./components/Updated";
+import BackToTop from "./components/common/BackToTop";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className=" bg_whiteEF overflow-hidden">
+        <BackToTop/>
+        <Hero />
+        <Welcome />
+        <Join />
+        <View />
+        <Updated />
+        <Frequently />
+        <MyFooter />
+      </div>
+    </>
   );
 }
 
