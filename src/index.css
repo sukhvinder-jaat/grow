@@ -204,7 +204,7 @@ button:focus:not(:focus-visible) {
   height: 1px;
 }
 .viewBox .viewImg {
- transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .viewBox:hover .viewImg {
   transform: scale(1.2);
@@ -386,6 +386,9 @@ button:focus:not(:focus-visible) {
   }
   .updateBoxSmall {
     max-width: 96% !important;
+  }
+  .viewBox:hover .viewImg {
+    transform: scale(1);
   }
   .nav_show.showw {
     left: 0%;
