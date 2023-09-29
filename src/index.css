@@ -226,7 +226,7 @@ button:focus:not(:focus-visible) {
 .min_h_140 {
   min-height: 140px;
 }
-.h_53{
+.h_53 {
   height: 53px;
 }
 .p_12_24 {
@@ -238,8 +238,23 @@ button:focus:not(:focus-visible) {
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px !important;
 }
-.yourNameInput {
+/* .yourNameInput {
   border: 1px solid #cccccc !important;
+  
+  background: linear-gradient(180deg, #cccccc 0%, #fff 55%);
+  display: inline-block;
+  border-radius: 5px;
+} */
+.linerBorder {
+  background: linear-gradient(180deg, #cccccc 0%, #fff 55%);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 1px;
+}
+.linerBorder .yourNameInput {
+  background: white;
+  display: block;
+  border-radius: 4px;
   padding: 12px 10px;
 }
 /* update small */
@@ -323,7 +338,7 @@ button:focus:not(:focus-visible) {
 .bg_whiteHover::before {
   background: white;
 }
-.subscribeHover::before{
+.subscribeHover::before {
   background: white;
 }
 @media (min-width: 1199.98px) {

@@ -11,7 +11,7 @@ export const Updated = () => {
           <div className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none">
             <div className="d-flex align-items-center justify-content-start">
               <a
-                href="mail:Stepenjohns@gmail.com"
+                href="#"
                 className="d-flex align-items-center"
                 target="blank"
               >
@@ -57,24 +57,30 @@ export const Updated = () => {
               </p>
               <Row className="pt-4">
                 <Col xs={6}>
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    className="text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
-                  />
+                  <div className="linerBorder w-100">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      className="clr_black80 ff_roboto border-0 fs_sm fw-normal bg-white rounded-1 yourNameInput w-100"
+                    />
+                  </div>
                 </Col>
                 <Col xs={6}>
-                  <input
-                    type="text"
-                    placeholder="Your Email Address"
-                    className="text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
-                  />
+                  <div className="linerBorder w-100">
+                    <input
+                      type="text"
+                      placeholder="Your Email Address"
+                      className="clr_black80 ff_roboto border-0 fs_sm fw-normal bg-white rounded-1 yourNameInput w-100"
+                    />
+                  </div>
                 </Col>
                 <Col xs={12} className="mt-3 mb-2">
-                  <textarea
-                    className="w-100 min_h_140 text-black ff_roboto fs_sm opacity05 fw-normal bg-white rounded-1 yourNameInput w-100"
-                    placeholder="Message"
-                  />
+                  <div className="linerBorder w-100">
+                    <textarea
+                      className="w-100 min_h_140 clr_black80 border-0 ff_roboto fs_sm  fw-normal bg-white rounded-1 yourNameInput w-100"
+                      placeholder="Message"
+                    />
+                  </div>
                 </Col>
               </Row>
               <button className="subscribeHover whiteHover overflow-hidden position-relative ff_roboto fs_md text-white lh_normal fw-medium bg_pinkF7 rounded-pill p_12_24 mt-4 justify-content-center h_53 d-flex align-items-center">

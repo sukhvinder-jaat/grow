@@ -26,6 +26,7 @@
   --color-whiteFFE: #ffeeee;
   --color-black0D: #0d0d0d !important;
   --color-black11: #111111 !important;
+  --color-black80: #808080 !important;
 }
 /* font family */
 .ff_roboto {
@@ -87,6 +88,9 @@
 }
 .clr_black11 {
   color: var(--color-black11);
+}
+.clr_black80 {
+  color: var(--color-black80);
 }
 .clr_pinkFF {
   color: var(--color-pinkFF);
