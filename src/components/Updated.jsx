@@ -8,13 +8,21 @@ export const Updated = () => {
       <Container className="py-lg-5 py-4">
         <Row className="position-relative my-xl-5 mt-lg-5 mt-4 justify-content-center">
           {/* small box */}
-          <div className="bg_whiteF8 p-4 updateBoxSmall position-absolute z-1 bottom_10 start-0 d-lg-block d-none">
+
+          <Col
+            xl={6}
+            lg={7}
+            xs={8}
+            className="position-absolute start-0 top_-12 ps-0 d-lg-block d-none"
+          >
+            <img src={updateImg} alt="updateImg" className="w-100" />
+          </Col>
+          <Col lg={5} md={8} xs={12}>
+            <img src={updateImg} alt="updateImg" className="w-100 d-lg-none" />
+          </Col>
+          <div className="bg_whiteF8 p-4 updateBoxSmall position-lg-absolute z-1 bottom_25 start-0">
             <div className="d-flex align-items-center justify-content-start">
-              <a
-                href="#"
-                className="d-flex align-items-center"
-                target="blank"
-              >
+              <a href="#" className="d-flex align-items-center" target="blank">
                 <UpdateMessage />
                 <p className="ff_roboto fw-normal lh_normal text-black mb-0 ps-3">
                   Stepenjohns@gmail.com
@@ -34,17 +42,6 @@ export const Updated = () => {
               </a>
             </div>
           </div>
-          <Col
-            xl={6}
-            lg={7}
-            xs={8}
-            className="position-absolute start-0 top_-12 ps-0 d-lg-block d-none"
-          >
-            <img src={updateImg} alt="updateImg" className="w-100" />
-          </Col>
-          <Col lg={5} md={8} sm="10" xs={12}>
-            <img src={updateImg} alt="updateImg" className="w-100 d-lg-none" />
-          </Col>
           <Col lg={7} xs={12} className="mt-lg-0 mt-4">
             <div className="bg_whiteFA updateBox position-relative z-1">
               <p className="clr_black11 ff_roboto fs_4xl lh_normal fw-normal mb-0">

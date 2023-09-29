@@ -16,7 +16,7 @@ export const MyNav = () => {
   }
   return (
     <>
-      <div className="position-relative">
+      <div className="position-relative" id="header">
         <Container className="px-md-3">
           <Nav>
             <div className="mt-3 w-100">

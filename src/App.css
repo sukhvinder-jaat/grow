@@ -111,7 +111,7 @@
 .bg_pinkF7 {
   background-color: var(--color-pinkF7);
 }
-button{
+button {
   transition: 0.3s ease-in-out !important;
 }
 /* responisve */

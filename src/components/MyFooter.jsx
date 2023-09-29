@@ -9,11 +9,13 @@ export const MyFooter = () => {
     <div className="footerBg bg_no_repeat py-4">
       <Container>
         <div className="d-flex flex-column align-items-center">
-          <img
-            src={footerLogo}
-            alt="footerLogo"
-            className="mx_90 w-100"
-          />
+          <a href="#header">
+            <img
+              src={footerLogo}
+              alt="footerLogo"
+              className="mx_90 w-100"
+            />
+          </a>
           <p
             className="ff_roboto fw-normal fs_xsm text-white py_33 text-center"
           >

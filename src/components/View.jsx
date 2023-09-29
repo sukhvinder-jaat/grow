@@ -13,9 +13,9 @@ export const View = () => {
           return (
             <div key={vieww.id}>
               <hr className="viewLine" />
-              <Row className="justify-content-between">
-                <Col lg={4} md={5} xs={12}>
-                  <img src={vieww.image} alt="image" className="w-100 h-100" />
+              <Row className="justify-content-between viewBox">
+                <Col lg={4} md={5} xs={12} className="overflow-hidden">
+                  <img src={vieww.image} alt="image" className="w-100 h-100 viewImg" />
                 </Col>
                 <Col lg={7} md={7} xs={12}>
                   <p
