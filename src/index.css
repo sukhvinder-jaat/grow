@@ -9,6 +9,9 @@
 .pointer {
   cursor: pointer;
 }
+button {
+  transition: 0.3s ease-in-out !important;
+}
 /* nav bar */
 .nav_property {
   background: rgba(255, 255, 255, 0.05);
@@ -69,6 +72,7 @@
 }
 .startBorder:hover {
   box-shadow: 0px 2px 12px 2px white;
+  background: transparent;
 }
 .p_16_34 {
   padding: 16px 34px;
@@ -339,6 +343,12 @@ button:focus:not(:focus-visible) {
   z-index: 0;
   opacity: 0;
 }
+.whiteHover .textHoverWhite {
+  transition: 0.3s ease-in-out;
+}
+.whiteHover:hover .textHoverWhite {
+  color: white !important;
+}
 .whiteHover:hover:before {
   -webkit-transform: scaleX(200);
   -ms-transform: scaleX(200);
@@ -347,6 +357,12 @@ button:focus:not(:focus-visible) {
 }
 .bg_whiteHover::before {
   background: white;
+}
+.bg_whiteHover2 {
+  background: white;
+}
+.bg_whiteHover2::before {
+  background: transparent !important ;
 }
 .subscribeHover::before {
   background: white;

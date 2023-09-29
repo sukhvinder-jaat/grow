@@ -8,7 +8,6 @@ export const Updated = () => {
       <Container className="py-lg-5 py-4">
         <Row className="position-relative my-xl-5 mt-lg-5 mt-4 justify-content-center">
           {/* small box */}
-
           <Col
             xl={6}
             lg={7}

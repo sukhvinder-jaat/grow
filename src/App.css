@@ -111,9 +111,6 @@
 .bg_pinkF7 {
   background-color: var(--color-pinkF7);
 }
-button {
-  transition: 0.3s ease-in-out !important;
-}
 /* responisve */
 @media (max-width: 1023.98px) {
   :root {

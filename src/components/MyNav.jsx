@@ -50,8 +50,10 @@ export const MyNav = () => {
                     })}
                     <li>
                       <div className="d-block d-md-none">
-                        <button className="startBorder border-0 position-relative rounded-pill text-black ff_roboto fs_md fw-medium bg-white nav_btn">
-                          + Subscribe
+                        <button className="startBorder border-0 position-relative rounded-pill text-black ff_roboto fs_md fw-medium nav_btn whiteHover position-relative overflow-hidden hoverWhite bg_whiteHover2">
+                          <span className=" position-relative z-1 textHoverWhite">
+                            + Subscribe
+                          </span>
                         </button>
                       </div>
                     </li>
@@ -59,8 +61,10 @@ export const MyNav = () => {
                 </div>
                 <div className="d-none d-md-block">
                   <div className="d-flex align-items-center">
-                    <button className="border-0 position-relative rounded-pill text-black ff_roboto fs_md fw-medium bg-white nav_btn startBorder">
-                      + Subscribe
+                    <button className="border-0 position-relative rounded-pill text-black ff_roboto fs_md fw-medium  nav_btn startBorder whiteHover position-relative overflow-hidden hoverWhite bg_whiteHover2">
+                      <span className=" position-relative z-1 textHoverWhite">
+                        + Subscribe
+                      </span>
                     </button>
                   </div>
                 </div>
