@@ -173,6 +173,7 @@ button:focus:not(:focus-visible) {
 }
 .accordion-button::after {
   background-image: url(./assets/images/svg/accordinaArrow.svg) !important;
+  background-position: 0 5px !important;
 }
 .accordion-button {
   background-color: #efefef !important;
@@ -194,9 +195,11 @@ button:focus:not(:focus-visible) {
   content: "";
   position: absolute;
   max-width: 670px;
+  border-radius: 5px;
   width: 100%;
   left: 1%;
-  top: 9%;
+  top: 5%;
+  border: 4px solid #fff;
   height: 470px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -206,12 +209,6 @@ button:focus:not(:focus-visible) {
   background-color: #d7d7d7;
   width: 100%;
   height: 1px;
-}
-.viewBox .viewImg {
-  transition: 0.3s ease-in-out;
-}
-.viewBox:hover .viewImg {
-  transform: scale(1.2);
 }
 .mx_550 {
   max-width: 550px;
@@ -265,17 +262,6 @@ button:focus:not(:focus-visible) {
   max-width: 63% !important;
   width: 100%;
   border-radius: 5px;
-}
-@keyframes update {
-  0% {
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(10%) scale(1.1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
 }
 .bottom_25 {
   bottom: 25%;
@@ -334,7 +320,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   left: 0;
   right: 0;
-  width: 1px;
+  width: 10px;
   top: 0;
   bottom: 0;
   margin: auto;
@@ -354,6 +340,18 @@ button:focus:not(:focus-visible) {
   -ms-transform: scaleX(200);
   transform: scaleX(200);
   opacity: 1;
+}
+.textHoverWhite {
+  transition: 0.3s ease-in-out;
+}
+.hoverOpacity06 {
+  transition: 0.3s ease-in-out;
+}
+.hoverOpacity06:hover {
+  opacity: 0.6;
+}
+.textHoverWhite:hover {
+  color: white;
 }
 .bg_whiteHover::before {
   background: white;
@@ -433,14 +431,26 @@ button:focus:not(:focus-visible) {
   .overflow_hidden {
     overflow: hidden !important;
   }
+  .backtotop_btn {
+    height: 40px !important;
+    width: 40px !important;
+  }
 }
 @media (max-width: 576px) {
   .mx_45_sm {
     max-width: 45px !important;
   }
+  .accordion {
+    --bs-accordion-btn-icon-width: 1rem !important;
+  }
 }
 @media (min-width: 576px) {
   .mb_45 {
     margin-bottom: 45px !important;
+  }
+}
+@media (min-width: 375px) {
+  .nowrap_375 {
+    white-space: nowrap;
   }
 }

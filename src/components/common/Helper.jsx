@@ -56,24 +56,28 @@ export const AccordianData = [
     heading: "What products can I scan?",
     paragraph:
       "You can scan any product with a barcode before you recycle, no matter what it's made of. Cloopp rewards you for your positive actions",
+    event: "0",
   },
   {
     id: 2,
     heading: "Where can I use my rewards?",
     paragraph:
       "You can scan any product with a barcode before you recycle, no matter what it's made of. Cloopp rewards you for your positive actions",
+    event: "1",
   },
   {
     id: 3,
     heading: "What kind of impact can I make?",
     paragraph:
       "You can scan any product with a barcode before you recycle, no matter what it's made of. Cloopp rewards you for your positive actions",
+    event: "2",
   },
   {
     id: 4,
     heading: "Which brands do you partner with?",
     paragraph:
       "You can scan any product with a barcode before you recycle, no matter what it's made of. Cloopp rewards you for your positive actions",
+    event: "3",
   },
 ];
 export const NavOption = [

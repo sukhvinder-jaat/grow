@@ -20,8 +20,8 @@ export const Welcome = () => {
               className="w-100 d-md-none"
             />
           </Col>
-          <Col xl={6} md={8} xs={12} className="my-md-4 mb-md-4">
-            <div className="bg_whiteFA rounded-2 p-sm-4 p-2 my-md-5 mb-5 mt-3 position-relative z-1">
+          <Col xl={6} md={8} xs={12} className="my-md-4 mb-lg-4">
+            <div className="bg_whiteFA rounded-2 p-sm-4 p-3 my-md-4 mb-lg-5 mt-3 position-relative z-1">
               <p className="ff_roboto d-md-block lh_normal d-none fw-normal text-black mb-0 fs_4xl mb-3 ">
                 <span className="fw-semibold ">Welcome</span> to Work Skills
               </p>

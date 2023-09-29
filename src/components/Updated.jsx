@@ -52,7 +52,7 @@ export const Updated = () => {
                 Semikoli.
               </p>
               <Row className="pt-4">
-                <Col xs={6}>
+                <Col sm={6} xs={12}>
                   <div className="linerBorder w-100">
                     <input
                       type="text"
@@ -61,7 +61,7 @@ export const Updated = () => {
                     />
                   </div>
                 </Col>
-                <Col xs={6}>
+                <Col sm={6} xs={12} className="pt-sm-0 pt-3">
                   <div className="linerBorder w-100">
                     <input
                       type="text"
