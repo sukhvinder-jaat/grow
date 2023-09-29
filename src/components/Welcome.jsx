@@ -26,12 +26,12 @@ export const Welcome = () => {
                 <span className="fw-semibold ">Welcome</span> to Work Skills
               </p>
               <ul className="ps-4 mb-xl-5 mb-4">
-                <li className="list_dot ff_roboto fs_sm fw-normal clr_silver4B mb-3">
+                <li className="list_dot ff_roboto fs_sm fw-normal clr_silver4B mb-lg-3 mb-1">
                   Work Skills is built for young professionals who want to
                   enhance their soft skills to overcome the challenges they
                   often face during the early first years of work.
                 </li>
-                <li className="list_dot ff_roboto fs_sm fw-normal clr_silver4B mb-3">
+                <li className="list_dot ff_roboto fs_sm fw-normal clr_silver4B mb-lg-3 mb-1">
                   In a practical and growth-oriented approach, we help young
                   professionals develop and strengthen essential skills such as
                   boundaries-setting, communication, adaptability, and others.

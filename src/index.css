@@ -193,7 +193,7 @@ button:focus:not(:focus-visible) {
   width: 100%;
   left: 1%;
   top: 9%;
-  height: 490px;
+  height: 470px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url(./assets/images/webp/WelcomeImg.webp);
@@ -361,6 +361,11 @@ button:focus:not(:focus-visible) {
     height: 100vh;
   }
 }
+@media (min-width: 1199.98px) {
+  .welcomeImg::after {
+    height: 534px;
+  }
+}
 @media (min-width: 991.98px) {
   .position-lg-absolute {
     position: absolute;
@@ -373,7 +378,7 @@ button:focus:not(:focus-visible) {
 @media (max-width: 767.98px) {
   .nav_show {
     position: fixed;
-    height: 100vh;
+    height: 0vh;
     background-color: black;
     transition: all 0.6s linear;
     left: -127%;
@@ -382,7 +387,7 @@ button:focus:not(:focus-visible) {
     justify-content: center;
     flex-direction: column;
     z-index: 10;
-    top: 0px;
+    top: 0;
   }
   .updateBoxSmall {
     max-width: 96% !important;
@@ -392,6 +397,7 @@ button:focus:not(:focus-visible) {
   }
   .nav_show.showw {
     left: 0%;
+    height: 100vh;
   }
   .welcomeImg::after {
     display: none !important;
