@@ -263,6 +263,48 @@ button:focus:not(:focus-visible) {
   max-width: 80% !important;
   width: 100%;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.swal2-confirm {
+  background-color: #ff5cd7 !important;
+  border: 2px solid transparent !important;
+}
+.swal2-confirm:hover {
+  box-shadow: 0px 2px 12px 2px var(--color-pinkFF) !important;
+  border: 2px solid var(--color-pinkFF) !important;
+  color: var(--color-pinkFF) !important;
+  background-color: #fff !important;
+}
+.swal2-confirm:focus {
+  box-shadow: none !important;
+}
+.swal2-success-ring {
+  border: 0.25em solid rgb(255 92 215) !important;
+}
+div:where(.swal2-icon).swal2-success [class^="swal2-success-line"] {
+  background-color: #ff5cd7 !important;
+}
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-line"][class$="long"] {
+  top: 1.975em !important;
+}
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-line"][class$="tip"] {
+  top: 2.375em !important;
+  left: 0.3125em !important;
+}
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: 25em !important;
+  max-width: 100%;
+  padding: 0 0 30px 0 !important;
+  border: none;
+  border-radius: 20px !important;
+  background: #fff;
+  color: #545454;
+  font-family: inherit;
+}
+.updateBoxSmall:hover {
+  transform: translateY(-10%);
 }
 .bottom_25 {
   bottom: 25%;
@@ -366,6 +408,12 @@ button:focus:not(:focus-visible) {
 .subscribeHover::before {
   background: white;
 }
+.hoverBoxPink .hoverHeadding {
+  transition: 0.2s ease-in-out;
+}
+.hoverBoxPink:hover .hoverHeadding {
+  color: var(--color-pinkFF) !important;
+}
 @media (min-width: 1199.98px) {
   .container {
     max-width: 1140px !important;
@@ -400,6 +448,7 @@ button:focus:not(:focus-visible) {
     background-color: black;
     transition: all 0.6s linear;
     left: -127%;
+    height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -415,7 +464,6 @@ button:focus:not(:focus-visible) {
   }
   .nav_show.showw {
     left: 0%;
-    height: 100vh;
   }
   .welcomeImg::after {
     display: none !important;

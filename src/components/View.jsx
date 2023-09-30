@@ -4,9 +4,9 @@ import { Take } from "./common/Helper";
 export const View = () => {
   return (
     <div className="bg_whiteEF pt-5 mt-xl-5 mt-sm-4">
-      <Container className="pb-sm-5" id="article">
+      <Container className="pb-sm-5 hoverBoxPink" id="article">
         <p className="ff_roboto text-black text-center fw-normal fs_4xl mb-lg-5 pb-3">
-          Let’s Take a <span className="fw-semibold">View</span>
+          Let’s Take a <span className="fw-semibold hoverHeadding">View</span>
         </p>
         {Take.map((vieww) => {
           return (
@@ -14,7 +14,11 @@ export const View = () => {
               <hr className="viewLine" />
               <Row className="justify-content-between viewBox">
                 <Col xl={4} md={5} xs={12} className="overflow-hidden">
-                  <img src={vieww.image} alt="image" className="w-100 h-100 viewImg" />
+                  <img
+                    src={vieww.image}
+                    alt="image"
+                    className="w-100 h-100 viewImg"
+                  />
                 </Col>
                 <Col lg={7} md={7} xs={12}>
                   <p
