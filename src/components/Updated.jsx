@@ -16,7 +16,7 @@ export const Updated = () => {
           >
             <img src={updateImg} alt="updateImg" className="w-100" />
           </Col>
-          <Col lg={5} md={8} xs={12}>
+          <Col lg={5} md={10} xs={12}>
             <img src={updateImg} alt="updateImg" className="w-100 d-lg-none" />
           </Col>
           <div className="bg_whiteF8 p-4 updateBoxSmall position-lg-absolute z-1 bottom_25 start-0">
@@ -41,7 +41,7 @@ export const Updated = () => {
               </a>
             </div>
           </div>
-          <Col lg={7} xs={12} className="mt-lg-0 mt-4">
+          <Col lg={7} md={10} xs={12} className="mt-lg-0 mt-4">
             <div className="bg_whiteFA updateBox position-relative z-1">
               <p className="clr_black11 ff_roboto fs_4xl lh_normal fw-normal mb-0">
                 Get <span className="fw-semibold">Updated</span> With Us

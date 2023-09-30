@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav } from "react-bootstrap";
-import { AiOutlineAlignRight } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import logo from "../assets/images/svg/navLogo.svg";
 import { NavOption } from "./common/Helper";
@@ -40,7 +40,7 @@ export const MyNav = () => {
                             <a
                               href={option.move}
                               onClick={clickshow}
-                              className="position-relative me-md-3 fs_sm fw-normal ff_roboto hover_line text-white"
+                              className="position-relative fs_4vh me-md-3 fs_sm fw-normal ff_roboto hover_line text-white"
                             >
                               {option.home}
                             </a>
@@ -70,7 +70,7 @@ export const MyNav = () => {
                 </div>
                 <div className="z-10 d-md-none position-relative">
                   <h3 className="text-white w-100" onClick={clickshow}>
-                    {first ? <AiOutlineAlignRight /> : <ImCross />}
+                    {first ? <GiHamburgerMenu /> : <ImCross />}
                   </h3>
                 </div>
               </div>

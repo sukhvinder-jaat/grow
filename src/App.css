@@ -149,6 +149,9 @@
     --fs-5xl: 45px;
     --fs-6xl: 50px;
   }
+  .fs_4vh {
+    font-size: 4vw;
+  }
 }
 @media (max-width: 576.98px) {
   :root {

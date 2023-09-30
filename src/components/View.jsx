@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Take } from "./common/Helper";
-import { SubscribeBtn } from "./common/SubscribeBtn";
 export const View = () => {
   return (
     <div className="bg_whiteEF pt-5 mt-xl-5 mt-sm-4">
@@ -14,7 +13,7 @@ export const View = () => {
             <div key={vieww.id}>
               <hr className="viewLine" />
               <Row className="justify-content-between viewBox">
-                <Col lg={4} md={5} xs={12} className="overflow-hidden">
+                <Col xl={4} md={5} xs={12} className="overflow-hidden">
                   <img src={vieww.image} alt="image" className="w-100 h-100 viewImg" />
                 </Col>
                 <Col lg={7} md={7} xs={12}>
